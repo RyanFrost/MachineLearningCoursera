@@ -21,7 +21,7 @@ display_rows = floor(sqrt(m));
 display_cols = ceil(m / display_rows);
 
 % Between images padding
-pad = 3;
+pad = 1;
 
 % Setup blank display
 display_array = - ones(pad + display_rows * (example_height + pad), ...
